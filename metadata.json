@@ -1,0 +1,5 @@
+{
+  "name": "Mock Stock Market Trader",
+  "description": "A user interface to submit mock stock market transactions (buy/sell) to a webhook endpoint and view the transaction status.",
+  "requestFramePermissions": []
+}
