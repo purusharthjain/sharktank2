@@ -35,7 +35,7 @@ const App: React.FC = () => {
         setError(null);
         
         // Production URL for login
-        const loginUrl = 'https://purusharth.app.n8n.cloud/webhook/stock-transaction';
+        const loginUrl = 'https://ashamed-smog.app.n8n.cloud/webhook/stock-transaction';
 
         try {
             const payload: TransactionPayload = {
@@ -86,7 +86,7 @@ const App: React.FC = () => {
         setResult(null);
 
         // Use the production webhook URL for all actions
-        const webhookUrl = 'https://purusharth.app.n8n.cloud/webhook/stock-transaction';
+        const webhookUrl = 'https://ashamed-smog.app.n8n.cloud/webhook/stock-transaction';
 
         try {
             // Inject the stored password into the payload if logged in
@@ -139,7 +139,7 @@ const App: React.FC = () => {
         setModalError(null);
         setModalResult(null);
 
-        const webhookUrl = 'https://purusharth.app.n8n.cloud/webhook/stock-transaction';
+        const webhookUrl = 'https://ashamed-smog.app.n8n.cloud/webhook/stock-transaction';
 
         try {
             const finalPayload = {
